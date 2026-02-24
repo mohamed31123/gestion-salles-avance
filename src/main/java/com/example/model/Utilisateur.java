@@ -39,4 +39,15 @@ public class Utilisateur {
         this.prenom = prenom;
         this.nom = nom;
     }
+
+    @Override
+    public String toString() {
+        return "Utilisateur{" +
+                "email='" + email + '\'' +
+                ", id=" + id +
+                ", nom='" + nom + '\'' +
+                ", prenom='" + prenom + '\'' +
+                ", reservations=" + reservations +
+                '}';
+    }
 }

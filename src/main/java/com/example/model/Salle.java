@@ -138,4 +138,18 @@ public class Salle {
     public void addEquipement(Equipement visioconference) {
 
     }
+
+    @Override
+    public String toString() {
+        return "Salle{" +
+                "batiment='" + batiment + '\'' +
+                ", id=" + id +
+                ", nom='" + nom + '\'' +
+                ", capacite=" + capacite +
+                ", description='" + description + '\'' +
+                ", etage=" + etage +
+                ", reservations=" + reservations +
+                ", equipements=" + equipements +
+                '}';
+    }
 }

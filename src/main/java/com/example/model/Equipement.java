@@ -71,4 +71,15 @@ public class Equipement {
     public void setSalles(Set<Salle> salles) {
         this.salles = salles;
     }
+
+
+    @Override
+    public String toString() {
+        return "Equipement{" +
+                "description='" + description + '\'' +
+                ", id=" + id +
+                ", nom='" + nom + '\'' +
+                ", salles=" + salles +
+                '}';
+    }
 }

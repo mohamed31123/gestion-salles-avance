@@ -89,4 +89,16 @@ public class Reservation {
     public void setUtilisateur(Utilisateur utilisateur) {
         this.utilisateur = utilisateur;
     }
+
+    @Override
+    public String toString() {
+        return "Reservation{" +
+                "dateDebut=" + dateDebut +
+                ", id=" + id +
+                ", dateFin=" + dateFin +
+                ", motif='" + motif + '\'' +
+                ", utilisateur=" + utilisateur +
+                ", salle=" + salle +
+                '}';
+    }
 }
